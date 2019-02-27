@@ -1,5 +1,5 @@
 server:
-  port: 7777
+  port: 7788
 spring:
   application:
     name: spring-cloud-eureka-client
@@ -12,4 +12,4 @@ eureka:
     #instanceId: ${spring.application.name}:${server.port}
   client:
     serviceUrl:
-      defaultZone: http://10.3.99.29:1111/eureka/  #注册中心地址
+      defaultZone: http://10.0.41.110:1111/eureka/  #注册中心地址
